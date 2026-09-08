@@ -6,7 +6,7 @@ import json
 # 1) Colle ici l'URL de recherche CROUS filtrée sur "Mermoz"
 #    ou "Claudie Haigneré" (voir instructions pour l'obtenir).
 # ============================================================
-SEARCH_URL = "https://trouverunlogement.lescrous.fr/tools/47/search?bounds=4.56477744321497_45.9874205909687_5.332447120949345_45.27295361736122"
+SEARCH_URL = "https://trouverunlogement.lescrous.fr/tools/47/search?bounds=4.7718134_45.8082628_4.8983774_45.7073666&locationName=Lyon"
 
 # Le(s) mot(s)-clé(s) à repérer dans la page de résultats.
 # On s'arrête avant le "é" final de Haigneré pour que ça marche
