@@ -62,8 +62,8 @@ def check():
 
     if found and not state.get("found"):
         notify(
-            f"Un logement correspondant à '{KEYWORD}' est apparu "
-            f"dans les résultats CROUS. Va vite postuler : {SEARCH_URL}"
+            f"Félicitations mgl '{KEYWORD}' est apparu "
+            f"allez cavale vite: {SEARCH_URL}"
         )
         print("Notification envoyée !")
 
