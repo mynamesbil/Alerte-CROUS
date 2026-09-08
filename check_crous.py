@@ -11,7 +11,7 @@ SEARCH_URL = "https://trouverunlogement.lescrous.fr/tools/47/search?bounds=4.564
 # Le(s) mot(s)-clé(s) à repérer dans la page de résultats.
 # On s'arrête avant le "é" final de Haigneré pour que ça marche
 # que le site affiche "Haigneré" (avec accent) ou "HAIGNERE" (sans accent).
-KEYWORD = "Minimum"
+KEYWORD = "JUSSIEU"
 
 # Choisis un nom de "topic" ntfy.sh unique et difficile à deviner.
 # C'est ce qui permet de recevoir les notifs sur ton téléphone.
@@ -36,7 +36,7 @@ def notify(message):
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=message.encode("utf-8"),
         headers={
-            "Title": "Logement CROUS disponible !".encode("utf-8"),
+            "Title": "Va postuler mon ptit shlag".encode("utf-8"),
             "Priority": "urgent",
             "Tags": "house,rotating_light",
         },
